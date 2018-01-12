@@ -16,6 +16,11 @@
 		BB0B62DB1DE4626D00065559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0B62D91DE4626D00065559 /* LaunchScreen.storyboard */; };
 		BB0B62E61DE4626E00065559 /* SFLGitHubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0B62E51DE4626E00065559 /* SFLGitHubTestTests.m */; };
 		BB0B62F11DE4626E00065559 /* SFLGitHubTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0B62F01DE4626E00065559 /* SFLGitHubTestUITests.m */; };
+		BBC3F1DA1DF13DCC00848C22 /* SFLFlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC3F1D91DF13DCC00848C22 /* SFLFlowerView.m */; };
+		BBE814BF1DE821AC004E13BF /* WBFlashPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE814B81DE821AC004E13BF /* WBFlashPointView.m */; };
+		BBE814C01DE821AC004E13BF /* WBTagLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE814BA1DE821AC004E13BF /* WBTagLineLabel.m */; };
+		BBE814C11DE821AC004E13BF /* WBTagLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE814BC1DE821AC004E13BF /* WBTagLineView.m */; };
+		BBE814C21DE821AC004E13BF /* WBTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE814BE1DE821AC004E13BF /* WBTagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		BB0B62EC1DE4626E00065559 /* SFLGitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFLGitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0B62F01DE4626E00065559 /* SFLGitHubTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLGitHubTestUITests.m; sourceTree = "<group>"; };
 		BB0B62F21DE4626E00065559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC3F1D81DF13DCC00848C22 /* SFLFlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLFlowerView.h; sourceTree = "<group>"; };
+		BBC3F1D91DF13DCC00848C22 /* SFLFlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLFlowerView.m; sourceTree = "<group>"; };
+		BBE814B71DE821AC004E13BF /* WBFlashPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBFlashPointView.h; sourceTree = "<group>"; };
+		BBE814B81DE821AC004E13BF /* WBFlashPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBFlashPointView.m; sourceTree = "<group>"; };
+		BBE814B91DE821AC004E13BF /* WBTagLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTagLineLabel.h; sourceTree = "<group>"; };
+		BBE814BA1DE821AC004E13BF /* WBTagLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTagLineLabel.m; sourceTree = "<group>"; };
+		BBE814BB1DE821AC004E13BF /* WBTagLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTagLineView.h; sourceTree = "<group>"; };
+		BBE814BC1DE821AC004E13BF /* WBTagLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTagLineView.m; sourceTree = "<group>"; };
+		BBE814BD1DE821AC004E13BF /* WBTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTagView.h; sourceTree = "<group>"; };
+		BBE814BE1DE821AC004E13BF /* WBTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,7 @@
 		BB0B62C71DE4626D00065559 /* SFLGitHubTest */ = {
 			isa = PBXGroup;
 			children = (
+				BBE814B61DE821AC004E13BF /* Tag */,
 				BB0B62CB1DE4626D00065559 /* AppDelegate.h */,
 				BB0B62CC1DE4626D00065559 /* AppDelegate.m */,
 				BB0B62CE1DE4626D00065559 /* ViewController.h */,
@@ -113,6 +129,8 @@
 				BB0B62DC1DE4626D00065559 /* Info.plist */,
 				BB0B62D41DE4626D00065559 /* SFLGitHubTest.xcdatamodeld */,
 				BB0B62C81DE4626D00065559 /* Supporting Files */,
+				BBC3F1D81DF13DCC00848C22 /* SFLFlowerView.h */,
+				BBC3F1D91DF13DCC00848C22 /* SFLFlowerView.m */,
 			);
 			path = SFLGitHubTest;
 			sourceTree = "<group>";
@@ -141,6 +159,21 @@
 				BB0B62F21DE4626E00065559 /* Info.plist */,
 			);
 			path = SFLGitHubTestUITests;
+			sourceTree = "<group>";
+		};
+		BBE814B61DE821AC004E13BF /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				BBE814B71DE821AC004E13BF /* WBFlashPointView.h */,
+				BBE814B81DE821AC004E13BF /* WBFlashPointView.m */,
+				BBE814B91DE821AC004E13BF /* WBTagLineLabel.h */,
+				BBE814BA1DE821AC004E13BF /* WBTagLineLabel.m */,
+				BBE814BB1DE821AC004E13BF /* WBTagLineView.h */,
+				BBE814BC1DE821AC004E13BF /* WBTagLineView.m */,
+				BBE814BD1DE821AC004E13BF /* WBTagView.h */,
+				BBE814BE1DE821AC004E13BF /* WBTagView.m */,
+			);
+			path = Tag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0B62D01DE4626D00065559 /* ViewController.m in Sources */,
+				BBE814BF1DE821AC004E13BF /* WBFlashPointView.m in Sources */,
+				BBE814C11DE821AC004E13BF /* WBTagLineView.m in Sources */,
+				BBE814C01DE821AC004E13BF /* WBTagLineLabel.m in Sources */,
 				BB0B62CD1DE4626D00065559 /* AppDelegate.m in Sources */,
 				BB0B62D61DE4626D00065559 /* SFLGitHubTest.xcdatamodeld in Sources */,
+				BBE814C21DE821AC004E13BF /* WBTagView.m in Sources */,
 				BB0B62CA1DE4626D00065559 /* main.m in Sources */,
+				BBC3F1DA1DF13DCC00848C22 /* SFLFlowerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +556,7 @@
 				BB0B62F71DE4626E00065559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB0B62F81DE4626E00065559 /* Build configuration list for PBXNativeTarget "SFLGitHubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +565,7 @@
 				BB0B62FA1DE4626E00065559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB0B62FB1DE4626E00065559 /* Build configuration list for PBXNativeTarget "SFLGitHubTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +574,7 @@
 				BB0B62FD1DE4626E00065559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
